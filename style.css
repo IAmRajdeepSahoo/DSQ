@@ -6,41 +6,57 @@ body {
 }
 
 header {
-    padding: 40px 8%;
     background: #171717;
     color: white;
+    padding: 50px 8%;
 }
 
 header h1 {
-    font-size: 48px;
+    font-size: 56px;
     margin: 0;
 }
 
 header p {
-    font-size: 18px;
+    font-size: 20px;
+    margin-top: 8px;
     color: #cccccc;
 }
 
 main {
     max-width: 900px;
-    margin: 40px auto;
-    padding: 0 20px;
+    margin: 45px auto;
+    padding: 0 25px;
+}
+
+main > h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
 }
 
 .post {
     background: white;
-    padding: 25px;
-    margin-bottom: 20px;
-    border-radius: 12px;
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 14px;
     border: 1px solid #ddd;
 }
 
 .post h2 {
     margin-top: 0;
+    font-size: 26px;
+}
+
+.post p {
+    font-size: 17px;
+    line-height: 1.6;
 }
 
 .post a {
     color: #4b35c5;
     text-decoration: none;
     font-weight: bold;
+}
+
+.post a:hover {
+    text-decoration: underline;
 }
