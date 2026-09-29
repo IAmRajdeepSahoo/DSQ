@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f1ea;
+    color: #222;
+}
+
+header {
+    padding: 40px 8%;
+    background: #171717;
+    color: white;
+}
+
+header h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+header p {
+    font-size: 18px;
+    color: #cccccc;
+}
+
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.post {
+    background: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+}
+
+.post h2 {
+    margin-top: 0;
+}
+
+.post a {
+    color: #4b35c5;
+    text-decoration: none;
+    font-weight: bold;
+}
